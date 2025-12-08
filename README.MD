@@ -82,23 +82,21 @@ Use “Edit” to update book details.
 Use “Delete” to remove a book.
 
 All actions are persisted in the MongoDB database via the backend API.
+## Folder Structure
 
-FOLDER STRUCTURE 
-BookstoreMERN/
-│
-├─ backend/            # Express server, API routes, models
-│   ├─ models/
-│   ├─ routes/
-│   ├─ controllers/
-│   ├─ .env             # environment variables (e.g. MongoDB URI)
-│   └─ server.js
-│
-├─ frontend/           # React application
-│   ├─ src/
-│   ├─ public/
-│   └─ package.json
-│
-└─ .gitignore
+- BookstoreMERN/
+  - backend/
+    - models/
+    - routes/
+    - controllers/
+    - .env
+    - server.js
+  - frontend/
+    - src/
+    - public/
+    - package.json
+  - .gitignore
+
 🤝 Contributing
 
 Contributions are welcome!
