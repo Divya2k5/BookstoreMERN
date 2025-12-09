@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables - CRITICAL FOR SECURITY
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Configuration files with sensitive data - CRITICAL
+config.js
+config/*.js
+backend/config.js
+backend/config/*.js
+
+# Database connection files
+db.js
+database.js
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Build files
+dist/
+build/
+out/
+
+# Coverage reports
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Uploads and user content
+uploads/
+public/uploads/
+
+# Test files
+.env.test
+
+# Lock files (optional - uncomment if you want to ignore)
+# yarn.lock
+# pnpm-lock.yaml
