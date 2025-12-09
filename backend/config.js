@@ -1,2 +1,6 @@
-export const PORT = 5555;
-export const mongoDBURL = 'mongodb+srv://divyadb:appadipodu@divya.5du807s.mongodb.net/sampledb?retryWrites=true&w=majority&appName=Divya'
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+export const PORT = process.env.PORT;
+export const mongoDBURL = process.env.MONGODB_URL;
